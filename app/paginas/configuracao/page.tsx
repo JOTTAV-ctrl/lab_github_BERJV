@@ -13,7 +13,7 @@ export default function Configuracao() {
         </div>
 
         <div className="space-y-8">
-          {/* Passo 1 */}
+          {/* Passo 1*/}
           <section>
             <h2 className="mb-3 text-lg font-semibold text-zinc-800 dark:text-zinc-200 flex items-center gap-2">
               <span className="flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 text-xs text-white dark:bg-zinc-50 dark:text-black">1</span>
@@ -25,6 +25,31 @@ export default function Configuracao() {
               </code>
             </div>
           </section>
+          {/* Passo 1.1*/}
+           <section>
+            <h2 className="mb-3 text-lg font-semibold text-zinc-800 dark:text-zinc-200 flex items-center gap-2">
+              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 text-xs text-white dark:bg-zinc-50 dark:text-black">1.1</span>
+              Reiniciar o Visual Studio Code
+            </h2>
+            <div className="rounded-lg bg-zinc-100 p-4 dark:bg-black border border-zinc-200 dark:border-zinc-800">
+              <code className="text-sm text-amber-600 dark:text-amber-400 font-medium">Lembre-se de reiniciar o VS Code para que ele reconheça a instalação do Git.</code>
+            </div>
+            <div className="rounded-lg bg-zinc-100 p-4 dark:bg-black border border-zinc-200 dark:border-zinc-800">
+              <code className="text-sm text-blue-600 dark:text-blue-400">
+                No terminal do VS Code (CTRL + `) digite o comando:
+              </code>
+              <div className="relative group">
+                <pre className="bg-zinc-900 text-zinc-100 p-4 rounde-xl overflow-x-a
+                text-sm border border-zinc-700
+                ">
+              <code className="text-sm text-blue-600 dark:text-blue-400">
+                git --version
+              </code>
+              </pre>
+              </div>
+            </div>
+          </section>
+
 
           {/* Passo 2 */}
           <section>
