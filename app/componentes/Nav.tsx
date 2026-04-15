@@ -41,8 +41,8 @@ const Nav = () => {
           {/* Versão Mobile (Simplificada) */}
           <div className="md:hidden flex space-x-4">
              <Link href="/"><Home size={20} className="text-slate-600" /></Link>
-             <Link href="/configuracao"><Settings size={20} className="text-slate-600" /></Link>
-             <Link href="/repositorio"><GitBranch size={20} className="text-slate-600" /></Link>
+             <Link href="/paginas/configuracao"><Settings size={20} className="text-slate-600" /></Link>
+             <Link href="/paginas/repositorio"><GitBranch size={20} className="text-slate-600" /></Link>
           </div>
         </div>
       </div>
